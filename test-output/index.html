@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Facebook">
+              <span class="suite-name border-passed">Facebook</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Facebook">
+                    <span>C:\QAF-Test\qaf-blank-project\config\Fusion\testrun_configmodify.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Facebook">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Facebook">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Facebook">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Facebook">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Facebook">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Facebook">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Facebook" class="hide-methods passed suite-Facebook"> (hide)</a> <!-- hide-methods passed suite-Facebook -->
+                      <a href="#" panel-name="suite-Facebook" class="show-methods passed suite-Facebook"> (show)</a> <!-- show-methods passed suite-Facebook -->
+                    </span>
+                    <div class="method-list-content passed suite-Facebook">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Facebook" title="com.qmetry.qaf.automation.step.client.Scenario" hash-for-method="SampleTest">SampleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Facebook -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Facebook" class="panel Facebook">
+          <div class="suite-Facebook-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qmetry.qaf.automation.step.client.Scenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SampleTest">
+                  </a> <!-- SampleTest -->
+                  <span class="method-name">SampleTest</span>
+                  <em>
+(Sample Test Scenario)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Facebook-class-passed -->
+        </div> <!-- panel Facebook -->
+        <div panel-name="test-xml-Facebook" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\QAF-Test\qaf-blank-project\config\Fusion\testrun_configmodify.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Facebook&quot; parallel=&quot;methods&quot;&gt;
+  &lt;parameter name=&quot;scenario.file.loc&quot; value=&quot;scenarios/fusion/suite.bdd&quot;/&gt;
+  &lt;test name=&quot;smoke&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qmetry.qaf.automation.step.client.text.BDDTestFactory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- smoke --&gt;
+&lt;/suite&gt; &lt;!-- Facebook --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Facebook" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Facebook</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">smoke (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Facebook" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Facebook</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">SMOKE</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">SampleTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Facebook" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Facebook</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Facebook');
+function tableData_Facebook() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SampleTest')
+data.setCell(0, 2, 'com.qmetry.qaf.automation.step.client.Scenario')
+data.setCell(0, 3, 22165);
+window.suiteTableData['Facebook']= { tableData: data, tableDiv: 'times-div-Facebook'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <div id="times-div-Facebook">
+              </div> <!-- times-div-Facebook -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Facebook" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Facebook</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SampleTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When login to fb with credential 'nagarjuna.reddy76@gmail.com' and 'Jcpnaga@123'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login textbox for username present : Actual Login textbox for username present <a href="img/SampleTest_4zhn5a7tvinf31689.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'nagarjuna.reddy76@gmail.com' into 'input.fb.login.username'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'input.fb.login.password' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login textbox for password present : Actual Login textbox for password present <a href="img/SampleTest_1do0kbbdz9xq331690.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Jcpnaga@123' into 'input.fb.login.password'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'input.fb.login.btn' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login button present : Actual Login button present <a href="img/SampleTest_xy86ksdm5dec31691.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'input.fb.login.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then get latest story and birthday</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Stories tray  present : Actual Stories tray  present <a href="img/SampleTest_1ecmutuoflc0v31692.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>get text of 'stories.tray.first'</div><div  class="info"><span class="info-label">I </span>Stories section exist,22 hours ago</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'stories.tray.birthday' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected birthday  present : Actual birthday  present <a href="img/SampleTest_30ft8r96c3y831693.png" target="_blank">[View Screenshot]</a> </div></div><div  class="info"><span class="info-label">I </span>Birthday's section exists,1</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then get latest messages</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected click on messages  present : Actual click on messages  present <a href="img/SampleTest_v57ol3orbqri31694.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'messages.icon'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'messages.list' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected click on messages  present : Actual click on messages  present <a href="img/SampleTest_1thsjgz6e6svh31695.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'messages.list.all' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected click on messages  present : Actual click on messages  present <a href="img/SampleTest_6uvtx0bubjt431696.png" target="_blank">[View Screenshot]</a> </div></div><div  class="info"><span class="info-label">I </span>messages, Nagesh is waving at you!</div><div  class="info"><span class="info-label">I </span>messages, Say hi to your new Facebook friend, Nagraj.</div><div  class="info"><span class="info-label">I </span>messages, Say hi to your new Facebook friend, Narayanaswamy.</div><div  class="info"><span class="info-label">I </span>messages, Ok</div><div  class="info"><span class="info-label">I </span>messages, Hello Sir We have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Hello We have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Hello Sir, we have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Hello Suresh, We have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Nageshm is waving at you!</div><div  class="info"><span class="info-label">I </span>messages, Say hi to your new Facebook friend, Shashankgowdabs.</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Facebook" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Facebook" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qmetry.qaf.automation.step.client.Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit(org.testng.TestRunner@7b227d8d)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@7b227d8d)</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@7b227d8d)</span>
+                <span class="method-start">43 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.Scenario.scenario(), org.testng.TestRunner@7b227d8...)</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SampleTest</span>
+                <span class="method-start">63 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@7b227d8d, [TestResult name=SampleTest status=SUCCESS method=scenarios.fusion.s...)</span>
+                <span class="method-start">22248 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@7b227d8d)</span>
+                <span class="method-start">22248 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@7b227d8d)</span>
+                <span class="method-start">22248 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuit(org.testng.TestRunner@7b227d8d)</span>
+                <span class="method-start">22313 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

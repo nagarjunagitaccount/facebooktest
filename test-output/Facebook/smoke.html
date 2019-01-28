@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>TestNG:  smoke</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>smoke</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jan 27 08:09:37 CST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>22 seconds (22225 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.SampleTest()'><b>SampleTest</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (SampleTest)<br>Test method: Sample Test Scenario<br/>
+<a href="#Output-2135628905" onClick='toggleBox("Output-2135628905", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2135628905" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2135628905">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When login to fb with credential 'nagarjuna.reddy76@gmail.com' and 'Jcpnaga@123'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login textbox for username present : Actual Login textbox for username present <a href="img/SampleTest_4zhn5a7tvinf31689.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'nagarjuna.reddy76@gmail.com' into 'input.fb.login.username'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'input.fb.login.password' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login textbox for password present : Actual Login textbox for password present <a href="img/SampleTest_1do0kbbdz9xq331690.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Jcpnaga@123' into 'input.fb.login.password'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'input.fb.login.btn' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login button present : Actual Login button present <a href="img/SampleTest_xy86ksdm5dec31691.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'input.fb.login.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then get latest story and birthday</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Stories tray  present : Actual Stories tray  present <a href="img/SampleTest_1ecmutuoflc0v31692.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>get text of 'stories.tray.first'</div><div  class="info"><span class="info-label">I </span>Stories section exist,22 hours ago</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'stories.tray.birthday' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected birthday  present : Actual birthday  present <a href="img/SampleTest_30ft8r96c3y831693.png" target="_blank">[View Screenshot]</a> </div></div><div  class="info"><span class="info-label">I </span>Birthday's section exists,1</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then get latest messages</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected click on messages  present : Actual click on messages  present <a href="img/SampleTest_v57ol3orbqri31694.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'messages.icon'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'messages.list' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected click on messages  present : Actual click on messages  present <a href="img/SampleTest_1thsjgz6e6svh31695.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'messages.list.all' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected click on messages  present : Actual click on messages  present <a href="img/SampleTest_6uvtx0bubjt431696.png" target="_blank">[View Screenshot]</a> </div></div><div  class="info"><span class="info-label">I </span>messages, Nagesh is waving at you!</div><div  class="info"><span class="info-label">I </span>messages, Say hi to your new Facebook friend, Nagraj.</div><div  class="info"><span class="info-label">I </span>messages, Say hi to your new Facebook friend, Narayanaswamy.</div><div  class="info"><span class="info-label">I </span>messages, Ok</div><div  class="info"><span class="info-label">I </span>messages, Hello Sir We have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Hello We have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Hello Sir, we have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Hello Suresh, We have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Nageshm is waving at you!</div><div  class="info"><span class="info-label">I </span>messages, Say hi to your new Facebook friend, Shashankgowdabs.</div></div></div><br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+</table><p>
+</body>
+</html>

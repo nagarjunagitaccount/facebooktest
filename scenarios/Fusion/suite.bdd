@@ -1,0 +1,15 @@
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	
+	Given get '/'
+	#please provide your'e email and password
+    When login to fb with credential 'email' and 'password'
+    Then get latest story and birthday
+    Then get latest messages
+ 
+END
+
+
+
+
