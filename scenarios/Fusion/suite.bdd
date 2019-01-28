@@ -1,10 +1,15 @@
 
-
 SCENARIO: SampleTest
 META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
 	
 	Given get '/'
-	When search for 'qaf github infostretch'
-	Then verify link with partial text 'qaf' is present
+	#please provide your'e email and password
+    When login to fb with credential 'email' and 'password'
+    Then get latest story and birthday
+    Then get latest messages
+ 
 END
+
+
+
 

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When login to fb with credential 'nagarjuna.reddy76@gmail.com' and 'Jcpnaga@123'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login textbox for username present : Actual Login textbox for username present <a href="img/SampleTest_4zhn5a7tvinf31689.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'nagarjuna.reddy76@gmail.com' into 'input.fb.login.username'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'input.fb.login.password' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login textbox for password present : Actual Login textbox for password present <a href="img/SampleTest_1do0kbbdz9xq331690.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Jcpnaga@123' into 'input.fb.login.password'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'input.fb.login.btn' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login button present : Actual Login button present <a href="img/SampleTest_xy86ksdm5dec31691.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'input.fb.login.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then get latest story and birthday</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Stories tray  present : Actual Stories tray  present <a href="img/SampleTest_1ecmutuoflc0v31692.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>get text of 'stories.tray.first'</div><div  class="info"><span class="info-label">I </span>Stories section exist,22 hours ago</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'stories.tray.birthday' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected birthday  present : Actual birthday  present <a href="img/SampleTest_30ft8r96c3y831693.png" target="_blank">[View Screenshot]</a> </div></div><div  class="info"><span class="info-label">I </span>Birthday's section exists,1</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then get latest messages</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected click on messages  present : Actual click on messages  present <a href="img/SampleTest_v57ol3orbqri31694.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'messages.icon'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'messages.list' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected click on messages  present : Actual click on messages  present <a href="img/SampleTest_1thsjgz6e6svh31695.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'messages.list.all' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected click on messages  present : Actual click on messages  present <a href="img/SampleTest_6uvtx0bubjt431696.png" target="_blank">[View Screenshot]</a> </div></div><div  class="info"><span class="info-label">I </span>messages, Nagesh is waving at you!</div><div  class="info"><span class="info-label">I </span>messages, Say hi to your new Facebook friend, Nagraj.</div><div  class="info"><span class="info-label">I </span>messages, Say hi to your new Facebook friend, Narayanaswamy.</div><div  class="info"><span class="info-label">I </span>messages, Ok</div><div  class="info"><span class="info-label">I </span>messages, Hello Sir We have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Hello We have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Hello Sir, we have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Hello Suresh, We have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Nageshm is waving at you!</div><div  class="info"><span class="info-label">I </span>messages, Say hi to your new Facebook friend, Shashankgowdabs.</div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Facebook" duration-ms="22225" started-at="2019-01-27T14:09:37Z" finished-at="2019-01-27T14:09:59Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="scenarios.fusion.suite.bdd.SampleTest()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="SampleTest" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="smoke" duration-ms="22225" started-at="2019-01-27T14:09:37Z" finished-at="2019-01-27T14:09:59Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setupSuit" is-config="true" duration-ms="25" started-at="2019-01-27T08:09:37Z" finished-at="2019-01-27T08:09:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b227d8d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setupTest" is-config="true" duration-ms="0" started-at="2019-01-27T08:09:37Z" finished-at="2019-01-27T08:09:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b227d8d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setup" is-config="true" duration-ms="0" started-at="2019-01-27T08:09:37Z" finished-at="2019-01-27T08:09:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b227d8d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SampleTest()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="SampleTest" duration-ms="22165" started-at="2019-01-27T08:09:37Z" description="Sample Test Scenario" finished-at="2019-01-27T08:09:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When login to fb with credential 'nagarjuna.reddy76@gmail.com' and 'Jcpnaga@123'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login textbox for username present : Actual Login textbox for username present <a href="img/SampleTest_4zhn5a7tvinf31689.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'nagarjuna.reddy76@gmail.com' into 'input.fb.login.username'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'input.fb.login.password' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login textbox for password present : Actual Login textbox for password present <a href="img/SampleTest_1do0kbbdz9xq331690.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Jcpnaga@123' into 'input.fb.login.password'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'input.fb.login.btn' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login button present : Actual Login button present <a href="img/SampleTest_xy86ksdm5dec31691.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'input.fb.login.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then get latest story and birthday</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Stories tray  present : Actual Stories tray  present <a href="img/SampleTest_1ecmutuoflc0v31692.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>get text of 'stories.tray.first'</div><div  class="info"><span class="info-label">I </span>Stories section exist,22 hours ago</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'stories.tray.birthday' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected birthday  present : Actual birthday  present <a href="img/SampleTest_30ft8r96c3y831693.png" target="_blank">[View Screenshot]</a> </div></div><div  class="info"><span class="info-label">I </span>Birthday's section exists,1</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then get latest messages</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected click on messages  present : Actual click on messages  present <a href="img/SampleTest_v57ol3orbqri31694.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'messages.icon'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'messages.list' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected click on messages  present : Actual click on messages  present <a href="img/SampleTest_1thsjgz6e6svh31695.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'messages.list.all' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected click on messages  present : Actual click on messages  present <a href="img/SampleTest_6uvtx0bubjt431696.png" target="_blank">[View Screenshot]</a> </div></div><div  class="info"><span class="info-label">I </span>messages, Nagesh is waving at you!</div><div  class="info"><span class="info-label">I </span>messages, Say hi to your new Facebook friend, Nagraj.</div><div  class="info"><span class="info-label">I </span>messages, Say hi to your new Facebook friend, Narayanaswamy.</div><div  class="info"><span class="info-label">I </span>messages, Ok</div><div  class="info"><span class="info-label">I </span>messages, Hello Sir We have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Hello We have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Hello Sir, we have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Hello Suresh, We have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Nageshm is waving at you!</div><div  class="info"><span class="info-label">I </span>messages, Say hi to your new Facebook friend, Shashankgowdabs.</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SampleTest -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setupMethod" is-config="true" duration-ms="0" started-at="2019-01-27T08:09:37Z" finished-at="2019-01-27T08:09:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b227d8d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterTest" is-config="true" duration-ms="2" started-at="2019-01-27T08:09:59Z" finished-at="2019-01-27T08:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b227d8d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterClass" is-config="true" duration-ms="0" started-at="2019-01-27T08:09:59Z" finished-at="2019-01-27T08:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b227d8d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-27T08:09:59Z" finished-at="2019-01-27T08:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b227d8d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SampleTest status=SUCCESS method=scenarios.fusion.suite.bdd.SampleTest()[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given get '/'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When login to fb with credential 'nagarjuna.reddy76@gmail.com' and 'Jcpnaga@123'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login textbox for username present : Actual Login textbox for username present <a href="img/SampleTest_4zhn5a7tvinf31689.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'nagarjuna.reddy76@gmail.com' into 'input.fb.login.username'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'input.fb.login.password' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login textbox for password present : Actual Login textbox for password present <a href="img/SampleTest_1do0kbbdz9xq331690.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys 'Jcpnaga@123' into 'input.fb.login.password'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'input.fb.login.btn' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Login button present : Actual Login button present <a href="img/SampleTest_xy86ksdm5dec31691.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'input.fb.login.btn'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then get latest story and birthday</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected Stories tray  present : Actual Stories tray  present <a href="img/SampleTest_1ecmutuoflc0v31692.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>get text of 'stories.tray.first'</div><div  class="info"><span class="info-label">I </span>Stories section exist,22 hours ago</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'stories.tray.birthday' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected birthday  present : Actual birthday  present <a href="img/SampleTest_30ft8r96c3y831693.png" target="_blank">[View Screenshot]</a> </div></div><div  class="info"><span class="info-label">I </span>Birthday's section exists,1</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then get latest messages</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected click on messages  present : Actual click on messages  present <a href="img/SampleTest_v57ol3orbqri31694.png" target="_blank">[View Screenshot]</a> </div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'messages.icon'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'messages.list' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected click on messages  present : Actual click on messages  present <a href="img/SampleTest_1thsjgz6e6svh31695.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>verify 'messages.list.all' is present</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected click on messages  present : Actual click on messages  present <a href="img/SampleTest_6uvtx0bubjt431696.png" target="_blank">[View Screenshot]</a> </div></div><div  class="info"><span class="info-label">I </span>messages, Nagesh is waving at you!</div><div  class="info"><span class="info-label">I </span>messages, Say hi to your new Facebook friend, Nagraj.</div><div  class="info"><span class="info-label">I </span>messages, Say hi to your new Facebook friend, Narayanaswamy.</div><div  class="info"><span class="info-label">I </span>messages, Ok</div><div  class="info"><span class="info-label">I </span>messages, Hello Sir We have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Hello We have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Hello Sir, we have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Hello Suresh, We have created a group to connect students from Diligence school.Can you please add you're friends from DCHS chintamani to this group.Please help us to connect. https://www.facebook.com/groups/331842134069938/members/</div><div  class="info"><span class="info-label">I </span>messages, Nageshm is waving at you!</div><div  class="info"><span class="info-label">I </span>messages, Say hi to your new Facebook friend, Shashankgowdabs.</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterSuit" is-config="true" duration-ms="178" started-at="2019-01-27T08:09:59Z" finished-at="2019-01-27T08:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b227d8d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- smoke -->
+  </suite> <!-- Facebook -->
+</testng-results>

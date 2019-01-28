@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook" verbose="0" parallel="methods"
+	thread-count="1">
+
+	
+	<parameter name="scenario.file.loc" value="scenarios/fusion/suite.bdd"></parameter>
+
+	<test name="smoke" enabled="true">
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
+		</classes>
+	</test>
+</suite>

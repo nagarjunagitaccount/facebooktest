@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Facebook]" parallel="methods">
+  <parameter name="scenario.file.loc" value="scenarios/fusion/suite.bdd"/>
+  <test name="smoke(failed)" parallel="methods">
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <methods>
+          <include name="scenario"/>
+          <include name="setupTest"/>
+          <include name="setupSuit"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="afterSuit"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </classes>
+  </test> <!-- smoke(failed) -->
+</suite> <!-- Failed suite [Facebook] -->
